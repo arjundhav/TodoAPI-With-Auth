@@ -116,21 +116,21 @@
     
     Structure:
      
-     Header:  The header typically consists of two parts i.e  type of token, which is JWT, and signing algorithm being used, such as HMAC SHA256 or RSA.
+      Header:  The header typically consists of two parts i.e  type of token, which is JWT, and signing algorithm being used, such as HMAC SHA256 or RSA.
 
-         Ex:
+          Ex:
               {
                  "alg": "HS256",
                  "typ": "JWT"
               }
 
-    Payload: The second part of the token is the payload, which contains the claims. Claims are statements about an entity (typically, the user) and additional data. 
+      Payload: The second part of the token is the payload, which contains the claims. Claims are statements about an entity (typically, the user) and additional data. 
     
-         EX:
-             {
-                  "sub": "1234567890",
-                  "name": "John Doe",
-                  "admin": true
-             }
+          EX:
+              {
+                   "sub": "1234567890",
+                   "name": "John Doe",
+                   "admin": true
+              }
              
-   Signature: The signature is used to verify the message wasn't changed along the way, and, in the case of tokens signed with a private key also verifies sender of  JWT.
+      Signature: The signature is used to verify the message wasn't changed along the way, and, in the case of tokens signed with a private key also verifies sender of  JWT.
