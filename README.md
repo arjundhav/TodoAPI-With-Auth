@@ -1,5 +1,11 @@
 # Django_DRF
 
+## API
+    
+    APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols. 
+    
+    For ex: Weather Report System contains daily weather data.The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone.
+
 ## REST API: 
 
     REST(Representational State Transfer):
@@ -24,6 +30,13 @@
              API is defined as a code that helps two different software’s to communicate and exchange data with each other.
              Web APIs determine what exactly request is made to the component. 
              For ex: We define an endpoint to get the list of the students of a particular branch. It is also used on how to make the request and their expected responses.
+         
+         Benefits:
+             1. Integration : APIs are used to integrate new applications with existing software systems.
+             2. Ease of maintenance: API acts as a gateway between two systems. Each system  requires to make internal changes so that the API is not impacted. 
+                                    This way,any future code changes by one party do not impact the other party
+             3. Expansion: APIs present a unique opportunity for businesses to meet their clients needs across different platforms. 
+                   Ex: maps API allows map information integration via any device. Any business can give similar access to their internal databases by using free or paid APIs.                       
              
 
 ## HTTP Methods:
