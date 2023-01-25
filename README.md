@@ -113,3 +113,24 @@
     It can be used for an authentication system and can also be used for information exchange.The token is mainly composed of header, payload, signature. 
    
     JWT is token based stateless auth mechanism.It is a client-side based stateless session, server doesn't have to completely rely on database to save session information.
+    
+    Structure:
+     
+     Header:  The header typically consists of two parts i.e  type of token, which is JWT, and signing algorithm being used, such as HMAC SHA256 or RSA.
+
+         Ex:
+              {
+                 "alg": "HS256",
+                 "typ": "JWT"
+              }
+
+    Payload: The second part of the token is the payload, which contains the claims. Claims are statements about an entity (typically, the user) and additional data. 
+    
+         EX:
+             {
+                  "sub": "1234567890",
+                  "name": "John Doe",
+                  "admin": true
+             }
+             
+   Signature: The signature is used to verify the message wasn't changed along the way, and, in the case of tokens signed with a private key also verifies sender of  JWT.
