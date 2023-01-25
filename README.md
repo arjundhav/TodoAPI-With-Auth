@@ -106,3 +106,10 @@
                                        python manage.py makemigrations
                                        python manage.py migrate
                                        python manage.py runserver
+                                       
+ ## JWT:
+    
+    A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). 
+    It can be used for an authentication system and can also be used for information exchange.The token is mainly composed of header, payload, signature. 
+   
+    JWT is a token based stateless authentication mechanism. Since it is a client-side based stateless session, server doesn't have to completely rely on a datastore(database) to save session information.
