@@ -68,9 +68,9 @@
     8.TRACE:   It allows the client to see what is being received at other end of the request chain and use that data for testing or diagnostic information.
                It basically determine what exactly is happening with a request.
                
-     9.CONNECT: It starts two-way communications with the requested resource. It can be used to open a tunnel.
-                It establishes a tunnel to the server identified by a given URI.
-                For ex: CONNECT method can be used to access websites that use SSL(HTTPS).Client asks an HTTP Proxy server to tunnel the TCP connection to desired destination.         
+    9.CONNECT: It starts two-way communications with the requested resource. It can be used to open a tunnel.
+               It establishes a tunnel to the server identified by a given URI.
+         For ex: CONNECT method can be used to access websites that use SSL(HTTPS).Client asks an HTTP Proxy server to tunnel the TCP connection to desired destination.         
   <a href="https://www.tutorialspoint.com/http/http_methods.htm">For Reference Visit</a>
   
   ## Django REST Framework(DRF):
