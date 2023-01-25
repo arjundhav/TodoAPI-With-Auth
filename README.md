@@ -2,9 +2,10 @@
 
 ## API
     
-    APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols. 
+    An API( Application Programming Interface) enables two software components to communicate & exchange data with each other using a set of definitions and protocols.
+    We define an endpoint to get the list of the students of a particular branch. It is also used on how to make the request and their expected responses.
     
-    For ex: Weather Report System contains daily weather data.The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone.
+    For ex: Weather Report System contains daily weather data.The weather app on your phone talks to this system via APIs and shows you daily weather updates on your phone.
 
 ## REST API: 
 
@@ -24,14 +25,8 @@
                 A request is sent from client to server in the form of a web URL as HTTP GET or POST or PUT or DELETE request. 
                 After that, a response comes back from the server in the form of a resource which can be anything like HTML, XML, Image, or JSON. 
                 But now JSON is the most popular format being used in Web Services.
-        
-         API:
-             An API( Application Programming Interface) is an interface that defines the interaction between different software components. 
-             API is defined as a code that helps two different software’s to communicate and exchange data with each other.
-             Web APIs determine what exactly request is made to the component. 
-             For ex: We define an endpoint to get the list of the students of a particular branch. It is also used on how to make the request and their expected responses.
-         
-         Benefits:
+       
+        Benefits:
              1. Integration : APIs are used to integrate new applications with existing software systems.
              2. Ease of maintenance: API acts as a gateway between two systems. Each system  requires to make internal changes so that the API is not impacted. 
                                     This way,any future code changes by one party do not impact the other party
@@ -89,17 +84,17 @@
     
   ## Steps to create API using DRF:
     
-        1. Add rest_framework to INSTALLED_APPS : To initialize REST Framework in your project, go to settings.py, and in INSTALLED_APPS add ‘rest_framework’ at the bottom. 
+     1. Add rest_framework to INSTALLED_APPS : To initialize REST Framework in your project, go to settings.py, and in INSTALLED_APPS add ‘rest_framework’ at the bottom. 
         
-        2. Create a app and model : To demonstrate, creating and using an API, let’s create a model named “XYZModel” in apis/models.py 
+     2. Create a app and model : To demonstrate, creating and using an API, let’s create a model named “XYZModel” in apis/models.py 
         
-        3. Serialization : Converting a Model’s complex data such as querysets and model instances  to JSON/XML format in apis/serializers.py.
+     3. Serialization : Converting a Model’s complex data such as querysets and model instances  to JSON/XML format in apis/serializers.py.
         
-        4. Creating a viewset : To render data into frontend and handle requests from user, we need to create a view i.e we call Viewset in DRF stored in apis/views.py.
+     4. Creating a viewset : To render data into frontend and handle requests from user, we need to create a view i.e we call Viewset in DRF stored in apis/views.py.
         
-        5. Define URLs of API : Creating a URL for mapping to the viewset.Pathway of APIs to be accessed in apis/urls.py
+     5. Define URLs of API : Creating a URL for mapping to the viewset.Pathway of APIs to be accessed in apis/urls.py
         
-        6. Run server and check API: Run following commands to create the database, and run server, 
+     6. Run server and check API: Run following commands to create the database, and run server, 
                                        python manage.py makemigrations
                                        python manage.py migrate
                                        python manage.py runserver
