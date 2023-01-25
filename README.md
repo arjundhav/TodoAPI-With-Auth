@@ -81,7 +81,15 @@
     This process is known as   serialization, which the Django REST framework made super easy.
 
     DRF allows us to represent their functionality Django application in the form of REST APIs. It is quite easy to do.
+  
+  
+  ## Serialization & Deserialization:
+     
+    Serialization allow complex data such as querysets and model instances to be converted to native Python datatypes that can then be easily rendered into JSON, XML or other.
+    This makes data lightweight & portable.
     
+    Serializers also provide deserialization, allowing parsed data to be converted back into complex types, after first validating the incoming data.
+     
   ## Steps to create API using DRF:
     
      1. Add rest_framework to INSTALLED_APPS : To initialize REST Framework in your project, go to settings.py, and in INSTALLED_APPS add ‘rest_framework’ at the bottom. 
