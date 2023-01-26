@@ -7,6 +7,8 @@
     
     For ex: Weather Report System contains daily weather data.The weather app on your phone talks to this system via APIs and shows you daily weather updates on your phone.
 
+<img src="https://apipheny.io/wp-content/uploads/2020/10/api-waiter-1.png">
+
 ## REST API: 
 
     REST(Representational State Transfer):
@@ -31,7 +33,19 @@
              2. Ease of maintenance: API acts as a gateway between two systems. Each system  requires to make internal changes so that the API is not impacted. 
                                     This way,any future code changes by one party do not impact the other party
              3. Expansion: APIs present a unique opportunity for businesses to meet their clients needs across different platforms. 
-                   Ex: maps API allows map information integration via any device. Any business can give similar access to their internal databases by using free or paid APIs.                       
+                   Ex: maps API allows map information integration via any device. Any business can give similar access to their internal databases by using free or paid APIs.
+             4. It provides a flexible approach by serializing information in XML or JSON format.
+             
+        Examples:
+
+             Twitter offers a REST API that can be queried by any developer for sourcing the most recent tweets.
+
+            Instagram API allows your apps to retrieve user photos, tags, accounts, and so forth.
+
+            GitHub likewise provides super REST API that can be used for performing actions like following GitHub problems, monitoring user activity, and creating repositories
+     
+  <img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png">
+                   
              
 
 ## HTTP Methods:
