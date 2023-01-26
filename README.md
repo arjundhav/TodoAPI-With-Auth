@@ -131,10 +131,6 @@
    
     JWT is token based stateless auth mechanism.It is a client-side based stateless session, server doesn't have to completely rely on database to save session information.
     
-    <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/Structure_of_JWT.jpg">
-    
-    <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/Working_JWT.jpg">
-    
     Structure:
      
       Header:  The header typically consists of two parts i.e  type of token, which is JWT, and signing algorithm being used, such as HMAC SHA256 or RSA.
@@ -155,3 +151,7 @@
               }
              
       Signature: The signature is used to verify the message wasn't changed along the way, and, in the case of tokens signed with a private key also verifies sender of  JWT.
+
+ <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/Structure_of_JWT.jpg">
+    
+ <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/Working_JWT.jpg">
