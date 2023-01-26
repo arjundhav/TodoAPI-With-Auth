@@ -106,8 +106,23 @@
                                        python manage.py makemigrations
                                        python manage.py migrate
                                        python manage.py runserver
-                                       
- ## JWT:
+
+
+ ## Authentication & Authorization:
+      
+      ###Authentication: 
+                    In Authentication process,the identity of users is checked for providing the access to the system
+                    Authentication determines whether the person is user or not basically its verification
+                 Ex: Employees in a company are required to authenticate through the network before accessing their company email.    
+      
+      ###Authorization:  
+                   In Authorization process,a person’s or user’s authorities are checked for accessing the resources.
+                   While it determines What permission does the user have?, i.e validation of users power
+                   It is done after the authentication process.
+                 Ex: After an employee successfully authenticates,the system determines what information the employees are allowed to access.
+  
+  
+ ## JWT Authentication:
     
     A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). 
     It can be used for an authentication system and can also be used for information exchange.The token is mainly composed of header, payload, signature. 
