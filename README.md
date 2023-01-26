@@ -110,12 +110,12 @@
 
  ## Authentication & Authorization:
       
-      ###Authentication: 
+      Authentication: 
                     In Authentication process,the identity of users is checked for providing the access to the system
                     Authentication determines whether the person is user or not basically its verification
                  Ex: Employees in a company are required to authenticate through the network before accessing their company email.    
       
-      ###Authorization:  
+      Authorization:  
                    In Authorization process,a person’s or user’s authorities are checked for accessing the resources.
                    While it determines What permission does the user have?, i.e validation of users power
                    It is done after the authentication process.
