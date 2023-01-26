@@ -71,6 +71,8 @@
     9.CONNECT: It starts two-way communications with the requested resource. It can be used to open a tunnel.
                It establishes a tunnel to the server identified by a given URI.
          For ex: CONNECT method can be used to access websites that use SSL(HTTPS).Client asks an HTTP Proxy server to tunnel the TCP connection to desired destination.         
+         <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/HTTP_codes.jpg">
+         
   <a href="https://www.tutorialspoint.com/http/http_methods.htm">For Reference Visit</a>
   
   ## Django REST Framework(DRF):
@@ -128,6 +130,10 @@
     It can be used for an authentication system and can also be used for information exchange.The token is mainly composed of header, payload, signature. 
    
     JWT is token based stateless auth mechanism.It is a client-side based stateless session, server doesn't have to completely rely on database to save session information.
+    
+    <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/Structure_of_JWT.jpg">
+    
+    <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/Working_JWT.jpg">
     
     Structure:
      
