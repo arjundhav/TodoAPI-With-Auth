@@ -85,7 +85,7 @@
     9.CONNECT: It starts two-way communications with the requested resource. It can be used to open a tunnel.
                It establishes a tunnel to the server identified by a given URI.
          For ex: CONNECT method can be used to access websites that use SSL(HTTPS).Client asks an HTTP Proxy server to tunnel the TCP connection to desired destination.         
-         <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/HTTP_codes.jpg">
+  <img src="https://github.com/arjundhav/TodoAPI-With-JWTAuth/blob/main/HTTP_codes.jpg">
          
   <a href="https://www.tutorialspoint.com/http/http_methods.htm">For Reference Visit</a>
   
