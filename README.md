@@ -44,7 +44,7 @@
 
             GitHub likewise provides super REST API that can be used for performing actions like following GitHub problems, monitoring user activity, and creating repositories
      
-  <img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png">
+  <img src="https://images.tutorialedge.net/uploads/rest-api.png">
                    
              
 
