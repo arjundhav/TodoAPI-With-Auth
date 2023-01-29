@@ -1,4 +1,4 @@
+Python==3.10.2
 Django==3.2.6
 djangorestframework==3.14.0
 djangorestframework_simplejwt==5.2.2
-Python==3.10.2
