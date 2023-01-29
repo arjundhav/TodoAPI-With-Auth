@@ -3,7 +3,7 @@
 ## API
     
     An API( Application Programming Interface) enables two software components to communicate & exchange data with each other using a set of definitions and protocols.
-    We define an endpoint to get the list of the students of a particular branch. It is also used on how to make the request and their expected responses.
+    We define an endpoint to get the list of the data of a particular branch. It is also used on how to make the request and their expected responses.
     
     For ex: Weather Report System contains daily weather data.The weather app on your phone talks to this system via APIs and shows you daily weather updates on your phone.
 
